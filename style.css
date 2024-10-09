@@ -1,0 +1,104 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 20px;
+    border: 1px solid wheat;
+  box-shadow: 0 3px 4px gray;
+  background-image: url(banner.webp);
+ background-size: cover;
+ background-position:  center;
+}
+.navbar{
+margin-top: 65px;
+margin-right: 40px;
+}
+.navbar a{
+margin-left: 50px;
+text-decoration: none;
+font-size: 17px;
+font-weight: 800;
+font-family:  sans-serif;
+color: rgb(1, 14, 14);
+transition: all 0.3s ease;
+}
+ a:hover{
+   
+    color: rgb(42, 42, 156);
+text-decoration:underline;
+}
+#header h1{
+    color: rgb(170, 170, 20);
+    font-size: 30px;
+    font-weight: 800;
+    font-family:  sans-serif;
+    text-decoration: underline rgb(7, 0, 0);
+    width: 500px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   height: 500px;
+   border-right: 4px solid rgb(48, 19, 19);
+   width: 200px;
+   box-shadow: 4px 0px rgb(83, 26, 26);
+}
+.menu a{
+   
+    text-decoration: none;
+   
+    margin: auto;
+}
+#des{
+    display: flex;
+ 
+}
+
+#des .details h2{
+  margin-left: 500px;
+  color: rgba(77, 26, 3, 0.685);
+  text-decoration: underline;
+}
+#des .details p{
+    margin-left: 10px;
+    color: rgba(77, 26, 3, 0.685);
+}
+#des .menu a{
+    color: black;
+}
+#des .menu a:hover{
+    color: blue;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+     margin: auto; 
+    margin-top: 50px;
+}
+.login h2{
+    margin-bottom: 100px;
+}
+.login input{
+    margin-bottom: 20px;
+}
+#Registration{
+    padding: 50px;
+}
+#Registration h2{
+    text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+ color: black;
+ text-decoration: underline rgb(247, 247, 1);
+}
+#Registration h4{
+    text-align: left;
+    margin-bottom: 20px;
+}
+#Registration input{
+    
+   align-items: center;
+}
